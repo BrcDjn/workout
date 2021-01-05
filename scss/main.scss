@@ -1,0 +1,30 @@
+$bg: red;
+
+// Required
+@import '../node_modules/bootstrap/scss/functions';
+@import '../node_modules/bootstrap/scss/variables';
+@import '../node_modules/bootstrap/scss/mixins';
+
+// Optional
+@import '../node_modules/bootstrap/scss/tables'; // Tables
+@import '../node_modules/bootstrap/scss/utilities'; // Text alignment
+@import '../node_modules/bootstrap/scss/bootstrap-grid.scss'; // grid row, col, etc.
+@import '../node_modules/bootstrap/scss/bootstrap-reboot.scss'; // Reset
+@import '../node_modules/bootstrap/scss/buttons'; // Buttons
+@import '../node_modules/bootstrap/scss/type'; //Typo (title, etc.)
+
+// @import '../node_modules/bootstrap/scss/button-group';
+
+
+h1 small {
+    display: block;
+}
+
+.table {
+    td {padding: 0;}
+    span {padding: 0.75rem;}
+    caption {
+        caption-side: inherit;
+    }
+}
+
